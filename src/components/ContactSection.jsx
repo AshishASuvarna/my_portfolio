@@ -21,8 +21,8 @@ export const ContactSection = () => {
 
     setTimeout(() => {
       toast({
-        title: "Message sent!",
-        description: "Thank you for your message. I'll get back to you soon.",
+        title: "Message not sent!",
+        description: "Sorry, your message couldn’t be delivered due to a technical error. Email me at ashishasuvarna@gmail.com",
       });
       setIsSubmitting(false);
     }, 1500);
