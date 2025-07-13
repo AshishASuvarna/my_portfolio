@@ -2,29 +2,33 @@ import { useState } from "react";
 import { cn } from "@/lib/utils";
 
 const skills = [
-  // Frontend
-  { name: "HTML/CSS", level: 95, category: "frontend" },
-  { name: "JavaScript", level: 90, category: "frontend" },
-  { name: "React", level: 90, category: "frontend" },
-  { name: "TypeScript", level: 85, category: "frontend" },
-  { name: "Tailwind CSS", level: 90, category: "frontend" },
-  { name: "Next.js", level: 80, category: "frontend" },
+  // Languages
+  { name: "Python", level: 90, category: "languages" },
+  { name: "Java", level: 70, category: "languages" },
+  { name: "HTML/CSS", level: 80, category: "languages" },
+  { name: "JavaScript", level: 80, category: "languages" },
+  { name: "MySQL", level: 80, category: "languages" },
 
-  // Backend
-  { name: "Node.js", level: 80, category: "backend" },
-  { name: "Express", level: 75, category: "backend" },
-  { name: "MongoDB", level: 70, category: "backend" },
-  { name: "PostgreSQL", level: 65, category: "backend" },
-  { name: "GraphQL", level: 60, category: "backend" },
+
+  // Frameworks
+  { name: "React", level: 75, category: "frameworks" },
+  { name: "Node.js", level: 70, category: "frameworks" },
+
 
   // Tools
-  { name: "Git/GitHub", level: 90, category: "tools" },
-  { name: "Docker", level: 70, category: "tools" },
-  { name: "Figma", level: 85, category: "tools" },
-  { name: "VS Code", level: 95, category: "tools" },
+  { name: "Git/GitHub", level: 70, category: "tools" },
+  { name: "VS Code", level: 70, category: "tools" },
+  { name: "Android Studio", level: 70, category: "tools" },
+  { name: "Unity Software", level: 65, category: "tools" },
+
+  //Skills
+  { name: "Data Structures & Algorithms", level: 95, category: "skills" },
+  { name: "API Integration", level: 65, category: "skills" },
+  { name: "Operating Systems", level: 75, category: "skills" },
+  { name: "Database Management System", level: 75, category: "skills" },
 ];
 
-const categories = ["all", "frontend", "backend", "tools"];
+const categories = ["all", "languages", "frameworks", "tools", "skills"];
 
 export const SkillsSection = () => {
   const [activeCategory, setActiveCategory] = useState("all");

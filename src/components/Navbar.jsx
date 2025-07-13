@@ -1,13 +1,16 @@
 import { cn } from "@/lib/utils";
 import { Menu, X } from "lucide-react";
 import { useEffect, useState } from "react";
+import { ThemeToggle } from "../components/ThemeToggle"
 
 const navItems = [
   { name: "Home", href: "#hero" },
   { name: "About", href: "#about" },
   { name: "Skills", href: "#skills" },
+
   { name: "Projects", href: "#projects" },
   { name: "Contact", href: "#contact" },
+
 ];
 
 export const Navbar = () => {
@@ -35,7 +38,7 @@ export const Navbar = () => {
           href="#hero"
         >
           <span className="relative z-10">
-            <span className="text-glow text-foreground"> PedroTech </span>{" "}
+            <span className="text-glow text-foreground"> My </span>{" "}
             Portfolio
           </span>
         </a>
@@ -51,6 +54,7 @@ export const Navbar = () => {
               {item.name}
             </a>
           ))}
+          <ThemeToggle />
         </div>
 
         {/* mobile nav */}
@@ -83,6 +87,7 @@ export const Navbar = () => {
                 {item.name}
               </a>
             ))}
+
           </div>
         </div>
       </div>
