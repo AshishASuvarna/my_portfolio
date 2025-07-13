@@ -4,27 +4,27 @@ const projects = [
   {
     id: 1,
     title: "AI Recipe Generator",
-    description: "A beautiful landing page app using React and Tailwind.",
-    image: "/projects/cheff_claude.png",
+    description: "A responsive full-stack app built with React and Claude API that generates personalized recipes from user-input ingredients.",
+    image: "/projects/cheff.png",
     tags: ["React", "Claude API", "Hugging Face API"],
     demoUrl: "#",
-    githubUrl: "#",
+    githubUrl: "https://github.com/AshishASuvarna/ai-recipe-generator",
   },
   {
     id: 2,
     title: "Restaurant Management System",
     description:
-      "Interactive analytics dashboard with data visualization and filtering capabilities.",
-    image: "/projects/project2.png",
+      "A Node.js and MySQL dashboard with analytics, PDF reporting, and loyalty program tracking for streamlined restaurant operations.",
+    image: "/projects/restaurant.png",
     tags: ["Python", "Node.js", "MySQL"],
     demoUrl: "#",
-    githubUrl: "#",
+    githubUrl: "https://github.com/AshishASuvarna/restaurant-management-project",
   },
   {
     id: 3,
     title: "2D Game",
     description:
-      "Full-featured e-commerce platform with user authentication and payment processing.",
+      "A Unity-based side-scrolling game featuring realistic physics, scoring logic, and keyboard-driven gameplay.",
     image: "/projects/project3.png",
     tags: ["Unity Software", "C#"],
     demoUrl: "#",
@@ -77,13 +77,6 @@ export const ProjectsSection = () => {
                 <div className="flex justify-between items-center">
                   <div className="flex space-x-3">
                     <a
-                      href={project.demoUrl}
-                      target="_blank"
-                      className="text-foreground/80 hover:text-primary transition-colors duration-300"
-                    >
-                      <ExternalLink size={20} />
-                    </a>
-                    <a
                       href={project.githubUrl}
                       target="_blank"
                       className="text-foreground/80 hover:text-primary transition-colors duration-300"
@@ -101,7 +94,7 @@ export const ProjectsSection = () => {
           <a
             className="cosmic-button w-fit flex items-center mx-auto gap-2"
             target="_blank"
-            href="https://github.com/machadop1407"
+            href="https://github.com/AshishASuvarna"
           >
             Check My Github <ArrowRight size={16} />
           </a>

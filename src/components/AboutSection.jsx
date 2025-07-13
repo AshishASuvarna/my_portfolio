@@ -16,16 +16,14 @@ export const AboutSection = () => {
             </h3>
 
             <p className="text-muted-foreground">
-              With over 5 years of experience in web development, I specialize
-              in creating responsive, accessible, and performant web
-              applications using modern technologies.
+              Aspiring Software Developer & Problem Solver
+              I'm a recent Master's graduate in Computer Science with hands-on experience building web applications using modern technologies like React, Node.js, and MySQL. I enjoy crafting clean, user-friendly interfaces and solving real-world problems through code.
+
+
             </p>
 
             <p className="text-muted-foreground">
-              I'm passionate about creating elegant solutions to complex
-              problems, and I'm constantly learning new technologies and
-              techniques to stay at the forefront of the ever-evolving web
-              landscape.
+              Currently seeking full-time software engineering opportunities where I can contribute, learn, and grow as part of an innovative development team.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
