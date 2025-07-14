@@ -42,7 +42,7 @@ export const ProjectsSection = () => {
         </h2>
 
         <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto">
-          Here are some of my recent projects. Each project was carefully
+          Here are my recent projects. Each project was carefully
           crafted with attention to detail, performance, and user experience.
         </p>
 
