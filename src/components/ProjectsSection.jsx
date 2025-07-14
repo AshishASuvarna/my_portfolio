@@ -25,7 +25,7 @@ const projects = [
     title: "2D Game",
     description:
       "A Unity-based side-scrolling game featuring realistic physics, scoring logic, and keyboard-driven gameplay.",
-    image: "/projects/project3.png",
+    image: "/projects/flappy.png",
     tags: ["Unity Software", "C#"],
     demoUrl: "#",
     githubUrl: "#",
